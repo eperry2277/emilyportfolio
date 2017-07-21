@@ -1,0 +1,5 @@
+#wrapper{height:1000px;width:1200px;background:purple;}
+#searchbar{height:50px;width:1200px;background:turquoise;color:white;font-size:40px;text-align:center;}
+#centerbox{height:950px;width:1200px;margin:auto;width:76%;}
+a:link{color:black;} 
+a:visited{color:black;} 
