@@ -1,16 +1,12 @@
 $("#button1").click(function(){
-    var userinput="spinning";
-    var userinput="circles";
-    var userinput="shifting";
-    var userinput="turning";
-    var userinput="favorite";
+    var userinput= $("#search").val();
 
     
-   if(userinput==="spinning"){
-       $("#1").show();
-       $("#2").show();
-       $("#3").show();
-       $("#4").show();
+   if(userinput === "spinning"){ 
+        $("#1").show();
+        $("#2").show();
+        $("#3").show();
+        $("#4").show();
         $("#5").hide();
         $("#6").show();
         $("#7").hide();
@@ -18,13 +14,15 @@ $("#button1").click(function(){
         $("#9").hide();
         $("#10").show();
         $("#11").hide(); 
-        $("#12").hide(); 
+        $("#12").hide();
    }
    else if(userinput==="circles"){
         $("#1").hide();
         $("#2").hide();
+        $("#3").show();
         $("#4").hide();
         $("#5").hide();
+        $("#6").show();
         $("#7").hide();
         $("#8").hide(); 
         $("#9").hide();
@@ -37,26 +35,154 @@ $("#button1").click(function(){
         $("#2").hide();
         $("#3").hide();
         $("#4").hide();
+        $("#5").show();
         $("#6").hide();
+        $("#7").show();
         $("#8").hide(); 
-        $("#10").hide();  
+        $("#9").show();
+        $("#10").hide(); 
+        $("#11").show();
         $("#12").hide(); 
    }
    else if(userinput==="turning"){
+        $("#1").show();
+        $("#2").show();
+        $("#3").show();
+        $("#4").show();
         $("#5").hide();
+        $("#6").show();
         $("#7").hide();
+        $("#8").show();
         $("#9").hide();
+        $("#10").show();
         $("#11").hide();
         $("#12").hide();
    }
    else if(userinput==="favorite"){
+        $("#1").show();
+        $("#2").show();
+        $("#3").show();
         $("#4").hide();
         $("#5").hide();
+        $("#6").show();
         $("#7").hide();
-        $("#8").hide(); 
+        $("#8").hide();
+        $("#9").show();
         $("#10").hide(); 
         $("#11").hide();
         $("#12").hide(); 
+   }
+   else if(userinput==="blue"){
+        $("#1").hide();
+        $("#2").show();
+        $("#3").show();
+        $("#4").show();
+        $("#5").hide();
+        $("#6").hide();
+        $("#7").hide();
+        $("#8").show();
+        $("#9").hide();
+        $("#10").hide(); 
+        $("#11").show();
+        $("#12").hide(); 
+   }
+   else if(userinput==="pink"){
+        $("#1").hide();
+        $("#2").hide();
+        $("#3").hide();
+        $("#4").hide();
+        $("#5").show();
+        $("#6").hide();
+        $("#7").hide();
+        $("#8").hide();
+        $("#9").hide();
+        $("#10").show(); 
+        $("#11").hide();
+        $("#12").hide(); 
+   }
+      else if(userinput==="yellow"){
+        $("#1").hide();
+        $("#2").hide();
+        $("#3").show();
+        $("#4").show();
+        $("#5").show();
+        $("#6").hide();
+        $("#7").hide();
+        $("#8").show();
+        $("#9").hide();
+        $("#10").show(); 
+        $("#11").hide();
+        $("#12").hide(); 
+   }
+   else if(userinput==="green"){
+        $("#1").show();
+        $("#2").hide();
+        $("#3").show();
+        $("#4").hide();
+        $("#5").hide();
+        $("#6").hide();
+        $("#7").hide();
+        $("#8").hide();
+        $("#9").show();
+        $("#10").hide(); 
+        $("#11").show();
+        $("#12").hide(); 
+   }
+   else if(userinput==="orange"){
+        $("#1").hide();
+        $("#2").show();
+        $("#3").hide();
+        $("#4").hide();
+        $("#5").show();
+        $("#6").hide();
+        $("#7").hide();
+        $("#8").hide();
+        $("#9").hide();
+        $("#10").hide(); 
+        $("#11").hide();
+        $("#12").hide(); 
+   }
+   else if(userinput==="rainbow"){
+        $("#1").hide();
+        $("#2").hide();
+        $("#3").hide();
+        $("#4").hide();
+        $("#5").show();
+        $("#6").hide();
+        $("#7").hide();
+        $("#8").hide();
+        $("#9").hide();
+        $("#10").hide(); 
+        $("#11").hide();
+        $("#12").hide(); 
+   }
+   else if(userinput==="black"){
+        $("#1").hide();
+        $("#2").hide();
+        $("#3").hide();
+        $("#4").hide();
+        $("#5").hide();
+        $("#6").hide();
+        $("#7").show();
+        $("#8").hide();
+        $("#9").hide();
+        $("#10").hide(); 
+        $("#11").hide();
+        $("#12").show(); 
+   }
+   else if(userinput==="white"){
+        $("#1").hide();
+        $("#2").hide();
+        $("#3").hide();
+        $("#4").hide();
+        $("#5").hide();
+        $("#6").show();
+        $("#7").show();
+        $("#8").hide();
+        $("#9").hide();
+        $("#10").hide(); 
+        $("#11").hide();
+        $("#12").show(); 
    }
    else{
        $("#searchbar").append("No results");
@@ -243,3 +369,4 @@ $("#12").click(function(){
     $("#1").hide();
     $("#12").attr("style","1");
 });
+
